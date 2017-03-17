@@ -17,6 +17,25 @@
  * van Media Development producten (apps, sites, etc.)
  * Bijvoorbeeld een string variabele met de naam 'teacherName' en als waarde 'Berend'
  */
+var firstName = "Chris";
+var lastname = "Salinas Soto";
+var email = "gitHUB@gmail.com";
+var username = "username";
+var password = "password";
+
+var runSpeed = 5;
+var age = 19;
+var number = 615678998;
+var areacode = 51;
+var sofiNumber = 12345678901;
+
+var checked = false;
+var search = true;
+var idea = false;
+var morning = false;
+var clear = true;
+
+
 
 /**
  * Opdracht 2: Arrays
@@ -26,11 +45,22 @@
  * Bijvoorbeeld een Array met de naam 'students' en als waarde ['Berend', "Erwin']
  */
 
+var laptops = ['Mac','Dell', 'Asus'];
+var fruits = ['Apple'];
+var names = ['jan', 'sjonnie'];
+console.log(laptops.length);
+console.log(fruits.length);
+console.log(names.length);
+
 /**
  * Opdracht 3: Arrays push
  * Maak een lege array aan
  * push er een string in
  */
+
+var name = [];
+name.push("chris");
+console.log(name);
 
 /**
  * Opdracht 4: Array splice
@@ -38,6 +68,12 @@
  * Gooi de naam op de 1e plek weg
  * Gooi de naam op de 3e plek weg
  */
+
+var food = ['brood', 'kaas', 'ham'];
+
+food.slice(2);
+console.log(food);
+
 
 /**
  * Opdracht 5: Objects
@@ -77,4 +113,3 @@
  * Maak een array genaamd 'students' met daarin 10 namen van je medeleerlingen
  * Schrijf een for loop om alle namen in de Array te laten zien
  */
-
